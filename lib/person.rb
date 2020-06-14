@@ -5,3 +5,4 @@ class Person
 def initialize(person_atrributes)
   person_atrributes.each {|attribute, value| self.send(("#{attribute}"),value)}
 end
+end
